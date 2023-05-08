@@ -237,6 +237,14 @@ a:hover {
 .page-non-index ul, .page-non-index ol {
 	padding-left: 1.5em;
 }
+.baca-juga {
+	background: #eee;
+	display: block;
+	max-width: fit-content;
+	padding: 5px 20px;
+	border-left: 10px solid #1c375b;
+	font-weight: bold;
+}
 .breadcrumb {
 	text-align: center;
 	font-size: 12px;
