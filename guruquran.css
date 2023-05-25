@@ -364,7 +364,7 @@ blockquote hr{
 	text-align: center;
 }
 #blog-pager > a:hover, #blog-pager > span:hover, #blog-pager-kursus > a:hover, #blog-pager-kursus > span:hover {
-	background: #6f8197;
+	background: rgba(0,0,0,0.6);
 }
 #blog-pager-kursus {
 	position: fixed;
