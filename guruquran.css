@@ -263,7 +263,7 @@ img {width: 100%;}
 	font-size: 14px;
 }
 #tombol:hover {
-	background: #6f8197;
+	background: rgba(0,0,0,0.6);
 }
 #tombol::after {
 	content: " \f0da";
