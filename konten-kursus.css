@@ -2,20 +2,20 @@
     display: none;
 }
 .konten-kursus {
-    height: 80vh;
-    width: 100vw;
-    position: fixed;
-    bottom: 0px;
-    z-index: -1;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 5vw;
-    text-align: center;
-    animation: nongol 0.5s;
-    row-gap: 15px;
+	height: 80vh;
+	width: 70vw;
+	position: fixed;
+	bottom: 0px;
+	z-index: -1;
+	left: 15vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 5vw;
+	text-align: center;
+	animation: nongol 0.5s;
+	row-gap: 15px;
 }
 #halaman-ke {
     float: left;
@@ -100,9 +100,23 @@
     #next, #prev {
             bottom: 20vh;
     }
+    .konten-kursus {
+	    width: 90vw;
+	    left: 5vw;
+    }
 }
 @media only screen and (max-width:415px){
     #judul-kursus {
         margin-top: 50px !important;
+    }
+    .konten-kursus {
+	    width: 100vw;
+	    left: 0vw;
+    }
+}
+@media only screen and (min-width:1500px){
+    .konten-kursus {
+	    width: 65vw;
+	    left: 17.5vw;
     }
 }
