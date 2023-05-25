@@ -1,0 +1,108 @@
+#breadcrumb {
+    display: none;
+}
+.konten-kursus {
+    height: 80vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    z-index: -1;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5vw;
+    text-align: center;
+    animation: nongol 0.5s;
+    row-gap: 15px;
+}
+#halaman-ke {
+    float: left;
+    position: fixed;
+    left: 2.5vh;
+    background: rgba(0,0,0,0.1);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#halaman-ke > p, #judul-kursus > p {
+    margin: 0 !important;
+}
+#judul-kursus {
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+}
+#luasin {
+    float: right;
+    border-radius: 100%;
+    padding: 10px;
+    background: rgba(0,0,0,0.1);
+    position: fixed;
+    right: 0;
+    margin: 0px !important;
+    margin-right: 2.5vh !important;
+    cursor: pointer;
+}
+#next {
+    right: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+#next i {
+    margin: 0;
+}
+#prev {
+    left: 0;
+    border-radius: 0px 10px 10px 0px;
+}
+#prev i {
+    margin: 0;
+}
+#next, #prev {
+    position: fixed;
+    bottom: 40vh;
+    height: 50px;
+    background: rgba(0,0,0,0.1);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: fit-content;
+}
+#prev:hover, #next:hover, #luasin:hover {
+    background: rgba(0,0,0,0.4);
+}
+@keyframes nongol{
+    0% {filter: opacity(0);}
+    100% {filter: opacity(1);}
+}
+#lanjut-materi {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+#lanjut-materi:hover {
+    background: rgba(0,0,0,0.3);
+}
+.konten-kursus strong, .konten-kursus b, .konten-kursus i, .konten-kursus p, .konten-kursus ul, .konten-kursus ol {
+    font-size: 18px !important;
+    margin: 0 !important;
+}
+@media only screen and (max-width:769px){
+    #next, #prev {
+            bottom: 20vh;
+    }
+}
+@media only screen and (max-width:415px){
+    #judul-kursus {
+        margin-top: 50px !important;
+    }
+}
