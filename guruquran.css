@@ -302,7 +302,7 @@ img {width: 100%;}
 	border-radius: 5px;
 	color: white !important;
 	line-height: 30px;
-	width: 30px;
+	padding: 2.5px 10px;
 	text-align: center;
 }
 #blog-pager > a:hover, #blog-pager > span:hover, #blog-pager-kursus > a:hover, #blog-pager-kursus > span:hover {
