@@ -211,7 +211,7 @@ img {width: 100%;}
 #artikel {
 	max-width: 1000px;
 	margin: auto;
-	padding: 0 2.5%;
+	padding: 2.5%;
 }
 #daftar-artikel {
 	display: inline-block;
