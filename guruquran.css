@@ -431,6 +431,22 @@ blockquote hr{
 .bj a:hover {
 	color: black;
 }
+.search-box {
+	line-height: 100%;
+	display: grid;
+	grid-template-columns: 8fr 1fr;
+	height: 30px;
+	width: 50vh;
+	max-width: 500px;
+}
+.input {
+	border: none;
+	border-radius: 10px 0px 0px 10px;
+}
+.search-button {
+	border: none;
+	border-radius: 0px 10px 10px 0px;
+}
 @media only screen and (max-width:769px){
 #konten-utama-1 {
 	font-size: 1.5em;
