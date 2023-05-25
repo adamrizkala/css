@@ -278,6 +278,14 @@ img {width: 100%;}
 #konten-artikel ul, #konten-artikel ol {
 	padding-left: 1.5em;
 }
+#konten-artikel blockquote {
+	background: #eee;
+	padding: 1px 5%;
+	border-radius: 5px;
+	position: relative;
+	text-align: center;
+	margin: 1.5em 0;
+}
 .baca-juga {
 	background: #eee;
 	display: block;
