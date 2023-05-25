@@ -212,6 +212,7 @@ img {width: 100%;}
 	max-width: 1000px;
 	margin: auto;
 	padding: 2.5%;
+	padding-bottom: 0px;
 }
 #daftar-artikel {
 	display: inline-block;
