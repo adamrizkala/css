@@ -447,6 +447,7 @@ blockquote hr{
 .search-button {
 	border: none;
 	border-radius: 0px 10px 10px 0px;
+	cursor: pointer;
 }
 @media only screen and (max-width:769px){
 #konten-utama-1 {
