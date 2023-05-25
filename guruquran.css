@@ -443,6 +443,9 @@ blockquote hr{
 .input {
 	border: none;
 	border-radius: 10px 0px 0px 10px;
+	outline: none;
+	font-size: 14px;
+	padding: 10px;
 }
 .search-button {
 	border: none;
