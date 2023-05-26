@@ -471,7 +471,7 @@ blockquote hr{
 	display: grid;
 	grid-template-columns: 7fr 1fr;
 	height: 30px;
-	width: 50vw;
+	width: 90vw;
 	max-width: 500px;
 	min-width: 300px;
 }
