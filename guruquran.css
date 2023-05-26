@@ -74,7 +74,7 @@ img {
 }
 #sub-menu-buka {
 	position: fixed;
-	z-index: 999;
+	z-index: 9999999;
 	background: rgba(0,0,0,0.9);
 	display: flex;
 	flex-direction: column;
@@ -469,10 +469,11 @@ blockquote hr{
 .search-box {
 	line-height: 100%;
 	display: grid;
-	grid-template-columns: 8fr 1fr;
+	grid-template-columns: 7fr 1fr;
 	height: 30px;
-	width: 50vh;
+	width: 50vw;
 	max-width: 500px;
+	min-width: 300px;
 }
 .input {
 	border: none;
