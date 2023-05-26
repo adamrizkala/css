@@ -278,7 +278,7 @@ img {
 }
 #konten-artikel strong, #konten-artikel b, #konten-artikel i, #konten-artikel p, #konten-artikel ul, #konten-artikel ol {
 	font-size: 18px;
-	margin: 1.5em 0;
+	margin-top: 1.5em;
 }
 #konten-artikel ul, #konten-artikel ol {
 	padding-left: 1.5em;
