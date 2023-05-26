@@ -377,7 +377,7 @@ blockquote hr{
 	left: 0;
 	padding: 10px;
 }
-.back-to-top {
+#back-to-top {
 	position: fixed;
 	bottom: 3%;
 	left: 5%;
