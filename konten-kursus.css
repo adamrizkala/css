@@ -31,12 +31,14 @@
 }
 #halaman-ke > p, #judul-kursus > p {
     margin: 0 !important;
+    font-size: 14px;
 }
 #judul-kursus {
     text-align: center;
     position: fixed;
     width: 100vw;
     left: 0;
+    padding: 5px;
 }
 #luasin {
     float: right;
