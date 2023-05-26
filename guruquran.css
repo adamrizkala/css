@@ -390,8 +390,9 @@ blockquote hr{
 	align-items: center;
 	color: white;
 	z-index: 99;
-	background: #1b262c;
+	background: black;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+	filter: opacity(0);
 }
 #footer-1 {
 	background: #333;
