@@ -377,11 +377,11 @@ blockquote hr{
 	left: 0;
 	padding: 10px;
 }
-#footer-1, #footer-3 {
+#footer-1 {
 	background: #333;
 	padding: 2vw;
 }
-#footer-1-child, #footer-3-child {
+#footer-1-child {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1000px;
@@ -389,7 +389,7 @@ blockquote hr{
 	column-gap: 2vw;
 	margin: auto;
 }
-#footer-2, #footer-4 {
+#footer-2 {
 	text-align: center;
 	height: 50px;
 	display: flex;
@@ -472,7 +472,7 @@ blockquote hr{
 #tombol-coba {
 	font-size: 1.25em;
 }
-#footer-1-child, #footer-3-child {
+#footer-1-child {
 	grid-template-columns: 1fr;
 }
 #kepala-anak {
