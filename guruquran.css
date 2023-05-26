@@ -117,6 +117,10 @@ img {
 	background: rgba(0,0,0,0.85);
 	backdrop-filter: grayscale(0.75) blur(1px);
 	font-family: Montserrat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
 }
 #utama div, #utama button, #utama b {
 	font-family: Montserrat;
