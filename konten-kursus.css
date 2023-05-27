@@ -78,7 +78,7 @@
 #prev:hover, #next:hover, #luasin:hover {
     background: rgba(0,0,0,0.4);
 }
-#daftar-isi-kursus-buka {
+#daftar-isi-kursus-tutup {
 	position: fixed;
 	left: 0;
 	bottom: 0;
