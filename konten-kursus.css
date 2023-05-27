@@ -78,7 +78,7 @@
 #prev:hover, #next:hover, #luasin:hover {
     background: rgba(0,0,0,0.4);
 }
-.daftar-isi-kursus {
+#daftar-isi-kursus {
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -93,7 +93,7 @@
 	transform: scaleX(0);
 	transform-origin: left;
 }
-.daftar-isi-kursus li {
+#daftar-isi-kursus li {
 	color: #eee;
 	font-size: 16px;
 	padding: 0.3em 0;
