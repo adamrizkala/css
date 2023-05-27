@@ -376,8 +376,8 @@ blockquote hr{
 	background: rgba(0,0,0,0.9);
 	border-radius: 5px;
 	color: white !important;
-	line-height: 30px;
-	padding: 5px 10px;
+	line-height: 40px;
+	width: 40px;
 	text-align: center;
 }
 #blog-pager > a:hover, #blog-pager > span:hover, #blog-pager-kursus > a:hover, #blog-pager-kursus > span:hover {
