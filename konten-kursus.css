@@ -78,21 +78,22 @@
 #prev:hover, #next:hover, #luasin:hover {
     background: rgba(0,0,0,0.4);
 }
-#daftar-isi-kursus-tutup {
+#daftar-isi-kursus-buka {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	background: rgba(0,0,0,0.9);
 	backdrop-filter: blur(1px);
-	height: 100vh;
+	height: 100%;
 	display: flex;
 	align-items: center;
-	width: 100vw;
-	max-width: 400px;
+	width: 100%;
+	max-width: 500px;
 	padding: 1.5em;
 	transform: scaleX(0);
 	transform-origin: left;
 	z-index: 999;
+	box-shadow: 0px 0px 25px 0px black;
 }
 #daftar-isi-kursus-buka {
 	position: fixed;
@@ -100,15 +101,16 @@
 	bottom: 0;
 	background: rgba(0,0,0,0.9);
 	backdrop-filter: blur(1px);
-	height: 100vh;
+	height: 100%;
 	display: flex;
 	align-items: center;
-	width: 100vw;
-	max-width: 400px;
+	width: 100%;
+	max-width: 500px;
 	padding: 1.5em;
 	transform: scaleX(1);
 	transform-origin: left;
 	z-index: 999;
+	box-shadow: 0px 0px 25px 0px black;
 }
 #daftar-isi-kursus-buka li {
 	color: #eee;
