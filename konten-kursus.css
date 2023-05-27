@@ -78,25 +78,57 @@
 #prev:hover, #next:hover, #luasin:hover {
     background: rgba(0,0,0,0.4);
 }
-#daftar-isi-kursus {
+#daftar-isi-kursus-tutup {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	background: rgba(0,0,0,0.9);
 	backdrop-filter: blur(1px);
-	height: 80vh;
+	height: 100vh;
 	display: flex;
 	align-items: center;
-	width: 90vw;
+	width: 100vw;
 	max-width: 400px;
 	padding: 1.5em;
 	transform: scaleX(0);
 	transform-origin: left;
+	z-index: 999;
 }
-#daftar-isi-kursus li {
+#daftar-isi-kursus-buka {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.9);
+	backdrop-filter: blur(1px);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	max-width: 400px;
+	padding: 1.5em;
+	transform: scaleX(1);
+	transform-origin: left;
+	z-index: 999;
+}
+#daftar-isi-kursus-buka li {
 	color: #eee;
 	font-size: 16px;
 	padding: 0.3em 0;
+}
+#penutup-daftar-isi {
+	position: absolute;
+	top: 5vh;
+	right: 5vh;
+	background: rgba(255,255,255,0.5);
+	border: none;
+	height: 40px;
+	width: 40px;
+	font-size: 22px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#penutup-daftar-isi i {
+	margin: 0px;
 }
 @keyframes nongol{
     0% {filter: opacity(0);}
