@@ -120,7 +120,7 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100vw;
+	width: 100%;
 }
 #utama div, #utama button, #utama b {
 	font-family: Montserrat;
@@ -184,7 +184,7 @@ img {
 	top: 0;
 	z-index: -1;
 	display: block;
-	width: 100vw;
+	width: 100%;
 	background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt5s1Hl_Tx8ydvf4CkY72O4JD4cFnEhZgcWrmrJs7f5GWWGJS8QOZYfpE-w2C1QSA5MS9x21XiSMu47m06hMtnpWCeRltfDAR3b5ucsv7CMRXe4LU3yh91I6Y3U9NGOmOhTgf5NcIzfoW_nH0cB1jaehPvmkw1rLB8GMK4KxO2NaigKzyqCuYP8Fge/s1600/high-angle-priest-holding-holy-book%282%29.jpg);
 	background-size: cover;
 	background-position: center;
@@ -527,6 +527,10 @@ blockquote hr{
 #utama-anak {
 	padding-right: 10%;
 	row-gap: 1.5em;
+}
+#gambar-artikel {
+	width: 100%;
+	margin: 0 0 1em 0;
 }
 }
 @media only screen and (max-width:601px){
