@@ -130,6 +130,10 @@
 #penutup-daftar-isi i {
 	margin: 0px;
 }
+#penutup-daftar-isi:hover {
+	background: rgba(255,255,255,0.3);
+	color: red;
+}
 @keyframes nongol{
     0% {filter: opacity(0);}
     100% {filter: opacity(1);}
