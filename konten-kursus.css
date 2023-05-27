@@ -115,6 +115,10 @@
 	font-size: 16px;
 	padding: 0.3em 0;
 }
+#daftar-isi-kursus-buka li:hover {
+	font-weight: bold;
+	color: #fbc402;
+}
 #penutup-daftar-isi {
 	position: absolute;
 	top: 5vh;
