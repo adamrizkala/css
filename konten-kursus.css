@@ -1,8 +1,18 @@
+#kepala {
+	background: rgba(0,0,0,0.9);
+	backdrop-filter: grayscale(0.75) blur(1px);
+	height: 20vh;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	transform: scaleY(0);
+	transform-origin: top;
+}
 #breadcrumb {
     display: none;
 }
 .konten-kursus {
-	height: 80vh;
+	height: 100vh;
 	width: 70vw;
 	position: fixed;
 	bottom: 0px;
