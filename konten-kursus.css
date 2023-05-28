@@ -11,6 +11,16 @@ h1, h2, h3, h4, h5, h6 {
 	transform: scaleY(0);
 	transform-origin: top;
 }
+#fitur-atas {
+	display: grid;
+	grid-template-columns: 1fr 10fr 1fr;
+	position: fixed;
+	right: 0;
+	top: 2vh;
+	justify-items: center;
+	align-items: center;
+	width: 100vw;
+}
 #breadcrumb {
     display: none;
 }
