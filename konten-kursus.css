@@ -1,6 +1,26 @@
 h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 1em 0;
 }
+.penghalang-audio-l {
+	width: 50vw;
+	height: 40px;
+	position: fixed;
+	background: white;
+	left: 45px;
+	bottom: 0;
+	opacity: 0;
+	cursor: not-allowed;
+}
+.penghalang-audio-r {
+	width: 50vw;
+	height: 40px;
+	position: fixed;
+	background: white;
+	right: 110px;
+	bottom: 0;
+	opacity: 0;
+	cursor: not-allowed;
+}
 .table {
 	margin: 0;
 	height: fit-content;
