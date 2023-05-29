@@ -1,25 +1,21 @@
 h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 1em 0;
 }
-.penghalang-audio-l {
-	width: 50vw;
-	height: 40px;
+.audio-materi {
 	position: fixed;
-	background: white;
-	left: 0;
 	bottom: 0;
-	opacity: 0;
-	cursor: not-allowed;
+	width: 100vw;
+	height: 40px;
 }
-.penghalang-audio-r {
-	width: 50vw;
-	height: 40px;
-	position: fixed;
-	background: white;
-	right: 110px;
-	bottom: 0;
-	opacity: 0;
-	cursor: not-allowed;
+.penghalang-audio{
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    background: black;
+    right: 80px;
+    bottom: 0;
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 .table {
 	margin: 0;
@@ -212,12 +208,6 @@ h1, h2, h3, h4, h5, h6 {
 .konten-kursus strong, .konten-kursus b, .konten-kursus i, .konten-kursus p, .konten-kursus ul, .konten-kursus ol {
     font-size: 18px !important;
     margin: 0 !important;
-}
-.audio-materi {
-	position: fixed;
-	bottom: 0;
-	width: 100vw;
-	height: 40px;
 }
 @media only screen and (max-width:769px){
     #next, #prev {
