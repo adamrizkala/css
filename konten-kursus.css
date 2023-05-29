@@ -193,6 +193,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px !important;
     margin: 0 !important;
 }
+.audio-materi {
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+}
 @media only screen and (max-width:769px){
     #next, #prev {
             bottom: 20vh;
