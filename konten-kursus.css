@@ -5,9 +5,9 @@ h1, h2, h3, h4, h5, h6 {
 	0% {width: 0vw;}
     100% {width: 95vw;}
 }
-#waktu-audio-background {
+.waktu-audio-background {
 	position: absolute;
-	right: -15vw;
+	right: 0vw;
 	bottom: 0px;
 	height: 30px;
 	width: 100vw;
@@ -27,19 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 	animation-name: waktu-audio-biru;
 	animation-timing-function: linear;
 }
-.waktu-audio-biru::after {
-	content: "";
-	background: white;
-	height: 15px;
-	width: 15px;
-	border-radius: 10px;
-	display: block;
-	position: absolute;
-	right: 0;
-	top: -5px;
-	box-shadow: 0 0 5px black;
-}
-#waktu-audio-abu {
+.waktu-audio-abu {
 	background: white;
 	height: 5px;
 	width: 95%;
