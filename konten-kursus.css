@@ -4,7 +4,9 @@ h1, h2, h3, h4, h5, h6 {
 #daftar-sub-bab-kursus-buka {
 	background: rgba(255,255,255,0.1);
 	border-radius: 10px;
-  	transform: scaleY(1);
+	transform: scaleY(1);
+	min-width: 300px;
+	padding: 10px;
 }
 #daftar-sub-bab-kursus-tutup {
 	display: none;
