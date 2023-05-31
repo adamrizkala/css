@@ -242,9 +242,9 @@ h1, h2, h3, h4, h5, h6 {
 #lanjut-materi:hover {
     background: rgba(0,0,0,0.3);
 }
-.konten-kursus strong, .konten-kursus b, .konten-kursus i, .konten-kursus p, .konten-kursus ul, .konten-kursus ol {
-    font-size: 18px !important;
-    margin: 0 !important;
+#konten-artikel strong, #konten-artikel b, #konten-artikel i, #konten-artikel p, #konten-artikel ul, #konten-artikel ol {
+    	font-size: 18px !important;
+	margin: 0 !important;
 }
 @media only screen and (max-width:769px){
     #next, #prev {
