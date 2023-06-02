@@ -646,6 +646,9 @@ header {
 	width: 100%;
 	text-align: center;
 }
+.table ul, .tablelist ul, .table ol, .tablelist ol {
+	margin: 0;
+}
 .tablelist {
 	max-width: 400px; 
 	margin: auto;
