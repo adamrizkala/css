@@ -145,7 +145,8 @@ a {
 }
 /* TEXT
 ---------------------------------------- */
-h1, h2, h3, h4, h5, h6{font-family:Roboto Condensed; color: #0F4C75; margin: 1.5em 0;}
+h1, h2, h3, h4, h5, h6{font-family:Roboto Condensed; color: #0F4C75;}
+article-item h3, article-item h4, article-item h5, article-item h6{margin: 1.5em 0;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{font-family:Roboto Condensed; color: #0F4C75}
 h1{font-size:28px}
 h2{font-size:26px}
