@@ -24,37 +24,44 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 @keyframes waktu-audio-biru {
-	0% {width: 0vw;}
-    100% {width: 95vw;}
+	0% {width: 0%;}
+    100% {width: 100%;}
+}
+.mute-audio {
+	color: white;
 }
 .waktu-audio-background {
-	position: absolute;
+	position: fixed;
 	right: 0vw;
 	bottom: 0px;
 	height: 30px;
 	width: 100vw;
 	background: rgba(0,0,0,0.9);
 	display: grid;
-	grid-template-rows: 1fr 1fr;
+	/* grid-template-rows: 1fr 1fr; */
 	justify-content: center;
 	align-items: center;
+	grid-template-columns: 2.5fr 95fr;
+	padding: 0 2vw;
+	column-gap: 1.25vw;
 }
 .waktu-audio-biru {
 	background: #00b6f0;
 	height: 5px;
-	width: 95%;
+	width: 100%;
 	border-radius: 5px;
-	position: absolute;
+	/* position: absolute; */
 	left: 2.5%;
 	animation-name: waktu-audio-biru;
 	animation-timing-function: linear;
+	margin-top: -5px;
 }
 .waktu-audio-abu {
 	background: white;
 	height: 5px;
-	width: 95%;
+	width: 100%;
 	border-radius: 5px;
-	position: absolute;
+	/* position: absolute; */
 	left: 2.5%;
 }
 .table {
