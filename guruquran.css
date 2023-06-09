@@ -264,6 +264,7 @@ img {
 }
 #ringkasan-artikel > h3, #ringkasan-artikel > div, #ringkasan-artikel > p {
 	margin-bottom: 10px;
+	margin-top: 0px;
 }
 #ringkasan-artikel > div > span > a, #ringkasan-artikel > div > span > i {
 	font-size: 12px;
