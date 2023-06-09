@@ -7,8 +7,8 @@
 	scroll-behavior: smooth;
 	transform-origin: center;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{font-family: Roboto Condensed; color: rgba(0,0,0,0.9); padding: 1.5em 0;}
-h1, h2, h3, h4, h5, h6{font-family: Roboto Condensed; color: rgba(0,0,0,0.9); padding: 1.5em 0;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{font-family: Roboto Condensed; color: rgba(0,0,0,0.9); margin: 20px 0;}
+h1, h2, h3, h4, h5, h6{font-family: Roboto Condensed; color: rgba(0,0,0,0.9); margin: 20px 0;}
 h1{font-size:28px}
 h2{font-size:26px}
 h3{font-size:24px}
@@ -20,6 +20,32 @@ a {
 	text-decoration: none;
 	color: rgba(0,0,0,0.9);
 	width: fit-content;
+}
+#konten-artikel {
+	line-height: 200%;
+}
+#konten-artikel strong, #konten-artikel b, #konten-artikel i, #konten-artikel p, #konten-artikel ul, #konten-artikel ol {
+	font-size: 18px;
+	margin: 1.5em 0;
+}
+#konten-artikel ul, #konten-artikel ol {
+	padding-left: 1.5em;
+}
+#konten-artikel blockquote {
+	background: #eee;
+	padding: 0 5%;
+	border-radius: 5px;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+.baca-juga {
+	background: #eee;
+	display: block;
+	max-width: fit-content;
+	padding: 5px 20px;
+	border-left: 10px solid rgba(0,0,0,0.9);
+	font-weight: bold;
 }
 img {
 	width: 100%;
@@ -285,31 +311,6 @@ img {
 #tombol::after {
 	content: " \f0da";
 	font-family: fontawesome;
-}
-#konten-artikel {
-	line-height: 200%;
-}
-#konten-artikel strong, #konten-artikel b, #konten-artikel i, #konten-artikel p, #konten-artikel ul, #konten-artikel ol {
-	font-size: 18px;
-	padding: 1.5em 0;
-}
-#konten-artikel ul, #konten-artikel ol {
-	padding-left: 1.5em;
-}
-#konten-artikel blockquote {
-	background: #eee;
-	padding: 5%;
-	border-radius: 5px;
-	position: relative;
-	text-align: center;
-}
-.baca-juga {
-	background: #eee;
-	display: block;
-	max-width: fit-content;
-	padding: 5px 20px;
-	border-left: 10px solid rgba(0,0,0,0.9);
-	font-weight: bold;
 }
 .baca-juga a {
 	color: #0f4c75;
