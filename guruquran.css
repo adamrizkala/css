@@ -38,6 +38,7 @@ a {
 	position: relative;
 	text-align: center;
 	display: inline-block;
+	width: 100%;
 }
 .baca-juga {
 	background: #eee;
