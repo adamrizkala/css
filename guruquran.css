@@ -37,8 +37,9 @@ a {
 	border-radius: 5px;
 	position: relative;
 	text-align: center;
-	display: flow-root;
+	display: table;
 	width: 100%;
+	margin: 1.5em 0;
 }
 .baca-juga {
 	background: #eee;
