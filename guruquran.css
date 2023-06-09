@@ -7,8 +7,8 @@
 	scroll-behavior: smooth;
 	transform-origin: center;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{font-family: Roboto Condensed; color: rgba(0,0,0,0.9); margin-top: 1.5em;}
-h1, h2, h3, h4, h5, h6{font-family: Roboto Condensed; color: rgba(0,0,0,0.9); margin-top: 1.5em;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{font-family: Roboto Condensed; color: rgba(0,0,0,0.9); margin: 1.5em 0;}
+h1, h2, h3, h4, h5, h6{font-family: Roboto Condensed; color: rgba(0,0,0,0.9); margin: 1.5em 0;}
 h1{font-size:28px}
 h2{font-size:26px}
 h3{font-size:24px}
@@ -291,7 +291,7 @@ img {
 }
 #konten-artikel strong, #konten-artikel b, #konten-artikel i, #konten-artikel p, #konten-artikel ul, #konten-artikel ol {
 	font-size: 18px;
-	margin-top: 1.5em;
+	margin: 1.5em 0;
 }
 #konten-artikel ul, #konten-artikel ol {
 	padding-left: 1.5em;
