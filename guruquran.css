@@ -575,3 +575,96 @@ konten-artikel img {
 	width: 90% !important;
 }
 }
+
+/* CSS KETIKA DI SCROLLLLLLL */
+#kepala-scroll a{
+	font-family: Montserrat;
+}
+#utama-scroll div, #utama-scroll button, #utama-scroll b {
+	font-family: Montserrat;
+}
+#kepala-scroll {
+	background: rgba(0,0,0,0.9);
+	height: 20vh;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	height: 10vh;
+	backdrop-filter: blur(5px);
+}
+#kepala-anak-scroll {
+	height: 10vh;
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 2.5%;
+}
+#logo-scroll {
+	width: 250px;
+	height: 10vh;
+	float: left;
+	display: grid;
+	align-content: center;
+}
+#navigasi-scroll {
+	line-height: 10vh;
+	float: right;
+	display: flex;
+}
+#latarbelakang-scroll {
+	height: 85vh;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	display: block;
+	width: 100%;
+	background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt5s1Hl_Tx8ydvf4CkY72O4JD4cFnEhZgcWrmrJs7f5GWWGJS8QOZYfpE-w2C1QSA5MS9x21XiSMu47m06hMtnpWCeRltfDAR3b5ucsv7CMRXe4LU3yh91I6Y3U9NGOmOhTgf5NcIzfoW_nH0cB1jaehPvmkw1rLB8GMK4KxO2NaigKzyqCuYP8Fge/s1600/high-angle-priest-holding-holy-book%282%29.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#menu-a-scroll {
+	font-size: 16px !important;
+
+}
+#utama-scroll {
+	height: 75vh;
+	background: rgba(0,0,0,0.85);
+	backdrop-filter: grayscale(0.75) blur(1px);
+	font-family: Montserrat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#login-pengguna-scroll {
+	font-size: 16px;
+}
+#pembuka-sub-menu-scroll {
+	font-size: 16px;
+}
+@media screen and (max-width: 769px) {
+#kepala-scroll {
+	height: 5vh;
+}
+#kepala-anak-scroll {
+	display: grid;
+	justify-content: center;
+	height: 5vh;
+}
+#logo-scroll {
+	display: grid;
+	width: 70% !important;
+	height: 15vh !important;
+	margin: auto;
+	transform: scale(0);
+	transform-origin: top;
+}
+#navigasi-scroll {
+	display: grid;
+	justify-content: center;
+	line-height: 5vh !important;
+	transform: translateY(-15vh);
+}
+#utama-scroll {
+	height: 80vh;
+}
+}
