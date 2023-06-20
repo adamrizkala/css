@@ -24,6 +24,13 @@ a {
 #konten-artikel {
 	line-height: 200%;
 }
+#konten-artikel a {
+	text-decoration-line: underline;
+	color: #444;
+}
+#konten-artikel a:hover {
+	color: #080069;
+}
 #konten-artikel strong, #konten-artikel b, #konten-artikel i, #konten-artikel p, #konten-artikel ul, #konten-artikel ol {
 	font-size: 18px;
 	margin: 1.5em 0;
@@ -40,6 +47,7 @@ a {
 	display: table;
 	width: 100%;
 	margin: 1.5em 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .baca-juga {
 	background: #eee;
@@ -60,18 +68,20 @@ img {
 	position: sticky;
 	top: 0;
 	z-index: 999;
+	display:grid;
 }
 #kepala a {
 	font-family: Montserrat;
 }
 #kepala-anak {
-	max-width: 1200px;
-	margin: auto;
-	height: 20vh;
-	padding: 0 2.5%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
 }
 #logo {
-	height: 20vh;
 	float: left;
 	width: 400px;
 	display: grid;
@@ -82,14 +92,14 @@ img {
 }
 #navigasi {
 	float: right;
-	line-height: 20vh;
-	display: flex;
+	display: grid;
+	justify-content: end;
+	align-items: center;
 }
 #menu, #menu > a {
 	font-size: 20px;
 	color: white;
 	text-decoration: none;
-	height: 100%;
 }
 #menu > a {
 	margin: 0px 30px 0px 0px;
@@ -338,20 +348,18 @@ img {
 	margin: auto;
 	text-align: left;
 }
-.tablelist a, .table a {
-	color: #0f4c75;
-}
 .table thead td, .tablelist thead td {
-	color: white !important;
-	background: #0f4c75 !important;
+	color: #fbc402 !important;
+	background: #000 !important;
 	text-align: center;
+	font-weight: bold;
 }
 .q {
 	text-align:center;
 	font-size: 18px !important;
 	line-height: 200%;
 }
-.q, .ar {
+.q, .q strong, .q b, .q i, .q p, .q ul, .q ol, .q span, .q div, .ar, .ar strong, .ar b, .ar i, .ar p, .ar ul, .ar ol, .ar span, .ar div {
 	font-family: Scheherazade New;
 	direction: rtl;
 	position: relative;
@@ -395,7 +403,7 @@ blockquote hr{
 #blog-pager-kursus {
 	position: fixed;
 	width: 100vw;
-	bottom: 30px;
+	bottom: 0;
 	left: 0;
 	padding: 10px;
 }
@@ -515,9 +523,13 @@ blockquote hr{
 #footer-1-child {
 	grid-template-columns: 1fr;
 }
+#kepala {
+	top: -15vh;
+}
 #kepala-anak {
 	display: grid;
 	justify-content: center;
+	grid-template-columns: 1fr;
 }
 #logo {
 	display: grid;
@@ -585,33 +597,35 @@ konten-artikel img {
 }
 #kepala-scroll {
 	background: rgba(0,0,0,0.9);
-	height: 20vh;
 	position: sticky;
 	top: 0;
 	z-index: 999;
-	height: 10vh;
+	height: 5vh;
 	backdrop-filter: blur(5px);
+	min-height: 32px;
+	display: grid;
 }
 #kepala-anak-scroll {
-	height: 10vh;
 	max-width: 1200px;
 	margin: auto;
 	padding: 0 2.5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
 }
 #logo-scroll {
-	width: 250px;
-	height: 10vh;
+	width: 0;
 	float: left;
 	display: grid;
 	align-content: center;
 }
 #navigasi-scroll {
-	line-height: 10vh;
 	float: right;
-	display: flex;
+	display: grid;
+	justify-content: end;
 }
 #latarbelakang-scroll {
-	height: 85vh;
+	height: 80vh;
 	position: absolute;
 	top: 0;
 	z-index: -1;
@@ -640,31 +654,4 @@ konten-artikel img {
 }
 #pembuka-sub-menu-scroll {
 	font-size: 16px;
-}
-@media screen and (max-width: 769px) {
-#kepala-scroll {
-	height: 5vh;
-}
-#kepala-anak-scroll {
-	display: grid;
-	justify-content: center;
-	height: 5vh;
-}
-#logo-scroll {
-	display: grid;
-	width: 70% !important;
-	height: 15vh !important;
-	margin: auto;
-	transform: scale(0);
-	transform-origin: top;
-}
-#navigasi-scroll {
-	display: grid;
-	justify-content: center;
-	line-height: 5vh !important;
-	transform: translateY(-15vh);
-}
-#utama-scroll {
-	height: 80vh;
-}
 }
