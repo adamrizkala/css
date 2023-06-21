@@ -367,19 +367,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media only screen and (min-width:1024px){
 	.konten-kursus {
-  		scale: 1.3;
+  		scale: 1.15;
   	}
 }
 @media only screen and (min-width:1280px){
 	.konten-kursus {
-  		scale: 1.4;
+  		scale: 1.2;
   	}
 }
 @media only screen and (min-width:1440px){
     .konten-kursus {
 	    width: 65vw;
 	    left: 17.5vw;
-      	scale: 1.5;
+      	scale: 1.25;
     }
 	#waktu-audio-background {
 		right: -17.5vw;
