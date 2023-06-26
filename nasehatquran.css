@@ -825,6 +825,7 @@ blockquote hr{
 	z-index: 99;
 	background: #1b262c;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+	filter: opacity(1);
 }
 
 /* RESPONSIVE
