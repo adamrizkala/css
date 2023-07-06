@@ -45,14 +45,14 @@ a:hover {
 	align-items: center;
 }
 #header-1 {
-	height: 100px;
+	height: 20vh;
 	max-width: 1000px;
 	margin: auto;
 	padding: 0px 30px;
 }
 #header-2 {
 	background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8EDI047JMgCj-zblwfKa6ApQpfeQa00eiW5sEotV0TP8LQsSGa4ufY3E6G_yYUQjTYv0kPtI_o_gB9twLhBZqjTc8h3xFYi6y47bXY4IbJaVuIAchk4KWaJZJ771d_ZfGH-Uavkqd6sCYqBk1G0HZIDxa7tQzSUXDrcd8e2oVkM3KnW8iIc0P9BP5WA/s1600/teacher-presenting-board.jpg);
-	height: 70vh;
+	height: 80vh;
 	align-content: center;
 	display: grid;
 	background-position-x: left;
@@ -64,7 +64,7 @@ a:hover {
 	background: rgba(0,0,0,0.5);
 	display: flex;
 	color: white;
-	height: 70vh;
+	height: 80vh;
 	backdrop-filter: grayscale(0.5) blur(1px);
 	flex-direction: column;
 	align-items: center;
