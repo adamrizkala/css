@@ -33,7 +33,7 @@ a {
 }
 #konten-artikel strong, #konten-artikel b, #konten-artikel i, #konten-artikel p, #konten-artikel ul, #konten-artikel ol {
 	font-size: 18px;
-	margin: 1.5em 0;
+	margin: 20px 0;
 }
 #konten-artikel ul, #konten-artikel ol {
 	padding-left: 1.5em;
@@ -339,7 +339,7 @@ img {
 	font-size: 16px;
 }
 .table, .tablelist {
-	margin: 1.5em auto;
+	margin: 20px auto;
 	height: 100%;
 	width: 100%;
 	text-align: center;
