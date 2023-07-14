@@ -146,7 +146,7 @@ a {
 /* TEXT
 ---------------------------------------- */
 h1, h2, h3, h4, h5, h6{font-family:Roboto Condensed; color: #0F4C75;}
-article-item h3, article-item h4, article-item h5, article-item h6{margin: 1.5em 0;}
+.article-item h3, .article-item h4, .article-item h5, .article-item h6{margin: 18px auto;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{font-family:Roboto Condensed; color: #0F4C75}
 h1{font-size:28px}
 h2{font-size:26px}
@@ -614,7 +614,7 @@ header {
 	width: 100%;
 	padding: 0;
 	border-radius: 5px;
-	margin: 1.5em auto;
+	margin: 18px auto;
 	margin-bottom: 0;
 }
 .page-non-index {
@@ -622,7 +622,7 @@ header {
 }
 .page-non-index strong, .page-non-index b, .page-non-index i, .page-non-index p, .page-non-index ul, .page-non-index ol {
 	font-size: 18px;
-	margin: 1.5em 0;
+	margin: 18px auto;
 }
 .page-non-index ul, .page-non-index ol {
 	padding-left: 1.5em;
@@ -633,7 +633,7 @@ header {
 	border-radius: 5px;
 	position: relative;
 	text-align: center;
-	margin: 1.5em 0;
+	margin: 18px auto;
 }
 .table, .tablelist, .table td {
 	border: 1px solid;
@@ -642,7 +642,7 @@ header {
 	font-size: 16px;
 }
 .table, .tablelist {
-	margin: 1.5em auto;
+	margin: 18px auto;
 	height: 100%;
 	width: 100%;
 	text-align: center;
@@ -902,7 +902,7 @@ h5{font-size:18px}
 h6{font-size:16px}
 .page-non-index strong, .page-non-index b, .page-non-index i, .page-non-index p, .page-non-index ul, .page-non-index ol {
 	font-size: 16px;
-	margin: 1.5em 0;
+	margin: 18px 0;
 }
 .header-group {
 	display: grid;
