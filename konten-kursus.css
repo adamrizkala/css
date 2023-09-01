@@ -135,6 +135,7 @@ li{width: fit-content;}
 	border-radius: 2.5px;
 	max-width: 750px;
 	margin: 10px 0 10px 0;
+	column-gap: 2px;
 }
 .proses-anak {
 	width: 0%;
@@ -144,6 +145,7 @@ li{width: fit-content;}
 	position: absolute;
 	top: 0;
 	transition: 0s;
+	border-radius: 2.5px;
 }
 .proses-anak-panah::after {
 	position: absolute;
@@ -159,7 +161,7 @@ li{width: fit-content;}
 	width: 100%;
 	background: rgba(0,0,0,0.1);
 	display: inline-block;
-	/* border-radius: 2.5px; */
+	border-radius: 2.5px;
 	position: relative;
 }
 #fitur-atas {
