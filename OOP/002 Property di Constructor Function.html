@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property di Constructor Function</title>
+</head>
+<body>
+    <script>
+        function Seseorang(){
+            this.namaDepan = "";
+            this.namaBelakang = "";
+        }
+
+        const abdul = new Seseorang();
+        abdul.namaDepan = "Abdul";
+        abdul.namaBelakang = "Muta'ali";
+
+        const unay = new Seseorang();
+        unay.namaDepan = "Aunatullah";
+        unay.namaBelakang = "Humaira";
+
+        console.log(abdul);
+        console.log(unay);
+    </script>
+</body>
+</html>

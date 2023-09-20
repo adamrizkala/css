@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+</head>
+<body>
+    <script>
+        function Seseorang(namaDepan, namaBelakang){
+            this.namaDepan = namaDepan;
+            this.namaBelakang = namaBelakang;
+            this.katakanHallo = function (nama) {
+                console.log(`Hallo ${nama}, nama saya adalah ${this.namaDepan} ${this.namaBelakang}`)
+            }
+        }
+
+        Seseorang.prototype.katakanDadah = function (){
+            console.log("Dadah...!");
+        }
+
+        Seseorang.prototype.jalan = function (){
+            console.log(`${this.namaDepan} sedang berjalan`);
+        }
+
+        const abdul = new Seseorang("Abdul", "Muta'ali");
+        abdul.katakanDadah = function (){
+            console.log("Sampai jumpaa...!")
+        }
+
+        const unay = new Seseorang("Aunatullah", "Humaira");
+
+        console.log(abdul);
+        console.log(unay);
+
+        abdul.katakanDadah();
+        abdul.jalan();
+    </script>
+</body>
+</html>

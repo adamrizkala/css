@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Super Constructor</title>
+</head>
+<body>
+    <script>
+        class Karyawan{
+            constructor(namaDepan){
+                this.namaDepanMu = namaDepan;
+            }
+            katakanHallo(nama){
+                console.info(`Hallo ${nama}, nama saya adalah karyawan ${this.namaDepanMu}`);
+            }
+        }
+
+        class Menejer extends Karyawan{
+            constructor(namaDepan, namaBelakang){
+                super(namaDepan);
+                this.namaBelakangMu = namaBelakang;
+            }
+            katakanHallo(nama){
+                console.info(`Hallo ${nama}, nama saya adalah menejer ${this.namaDepanMu} ${this.namaBelakangMu}`);
+            }
+        }
+
+        const abdu = new Karyawan("Abdul");
+        abdu.katakanHallo("Rizkala");
+
+        const una = new Menejer("Aunatullah", "Humaira");
+        una.katakanHallo("Rizkala");
+
+        console.info(abdu);
+        console.info(una);
+    </script>
+</body>
+</html>

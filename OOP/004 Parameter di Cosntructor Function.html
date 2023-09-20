@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameter di Constructor Function</title>
+</head>
+<body>
+    <script>
+        function Seseorang(namaDepan, namaBelakang){
+            this.namaDepan = namaDepan;
+            this.namaBelakang = namaBelakang;
+            this.katakanHallo = function (nama) {
+                console.log(`Hallo ${nama}, nama saya adalah ${this.namaDepan} ${this.namaBelakang}`)
+            }
+        }
+
+        const abdul = new Seseorang("Abdul", "Muta'ali");
+        abdul.katakanHallo("Adam");
+
+        const unay = new Seseorang("Aunatullah", "Humaira");
+        unay.katakanHallo("Rizkala")
+
+        console.log(abdul);
+        console.log(unay);
+    </script>
+</body>
+</html>
